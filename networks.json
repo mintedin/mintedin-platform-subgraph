@@ -1,0 +1,8 @@
+{
+  "scroll-sepolia": {
+    "FreelancerNFT": {
+      "address": "0x0eA71b3062Ee87Ec2EFbB3Ef1649174ab56261B5",
+      "startBlock": 8400600
+    }
+  }
+}
