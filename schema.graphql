@@ -134,3 +134,15 @@ type Upgraded @entity(immutable: true) {
   blockTimestamp: BigInt!
   transactionHash: Bytes!
 }
+
+type Freelancer @entity {
+  id: ID!
+  owner: Bytes! # address
+  tokenId: BigInt! # uint256
+  uri: String
+  revenue: BigInt! # uint256
+  jobAcceptedCount: BigInt! # uint256
+  jobCompletedCount: BigInt! # uint256
+  createdAt: BigInt!
+  updatedAt: BigInt!
+}

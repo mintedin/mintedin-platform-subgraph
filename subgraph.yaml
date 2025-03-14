@@ -65,4 +65,7 @@ dataSources:
           handler: handleUnpaused
         - event: Upgraded(indexed address)
           handler: handleUpgraded
+      callHandlers:
+        - function: setFreelancerData(uint256,(uint256,uint256,uint256))
+          handler: handleSetFreelancerData
       file: ./src/freelancer-nft.ts
